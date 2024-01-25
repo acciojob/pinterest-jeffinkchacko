@@ -1,1 +1,24 @@
-/*  your css code here. If applicable */
+.hero{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.hero>img{
+	width:50%;
+	height:50%;
+	object-fit:cover;
+}
+.hero1>p{
+	font-size:12px;
+	text-align:center;
+
+}
+.hero1>button{
+	margin-left:25%;
+	background:red;
+	color:white;
+	border:none;
+	padding:10px;
+	
+}
+
